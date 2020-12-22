@@ -158,33 +158,6 @@ $ (function(){
         spacing: "9px",
     });
 
-    $('.reviews__slider').slick({
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        dots: true,
-        arrows: false,
-        adaptiveHeight: true,
-        responsive: [
-            {
-            breakpoint: 1051,
-            settings: {
-                slidesToShow: 2,
-                arrows: false,
-                dots: true,
-              }
-            },
-            {
-            breakpoint: 701,
-            settings: {
-                slidesToShow: 1,
-                arrows: false,
-                dots: true,
-                }
-            },
-            
-        ]
-
-    });
 
 // ---------------кнопка вверх------------------
      let button = $('.back-to-top');
