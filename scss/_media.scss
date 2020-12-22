@@ -725,10 +725,11 @@
     }
 
     .menu-btn__btn {
-        background: #50CCCD;
-        box-shadow: 0px 4px 10px rgba(80, 204, 205, 0.3);
-        border-radius: 20px;
-        color: #fff;
+        display: none;
+        // background: #50CCCD;
+        // box-shadow: 0px 4px 10px rgba(80, 204, 205, 0.3);
+        // border-radius: 20px;
+        // color: #fff;
     }
 
     .sorting-link__mobile {
@@ -1015,6 +1016,7 @@
     }
     .category-page__inner-list .product-item__wrapper-category{
         margin: 0 auto;
+        margin-bottom: 15px;
     }
     .company__category-page{
         padding-top: 40px;
